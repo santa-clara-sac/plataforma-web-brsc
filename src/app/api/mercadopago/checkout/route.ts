@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { MercadoPagoConfig, Preference } from "mercadopago";
 import { GetCurrentUserFromMongoDB } from "@/actions/users";
 
-export const mercadopago = new MercadoPagoConfig({
+const mercadopago = new MercadoPagoConfig({
     accessToken: process.env.MP_ACCESS_TOKEN!,
 });
 
