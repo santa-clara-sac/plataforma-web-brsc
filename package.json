@@ -1,0 +1,50 @@
+{
+  "name": "urbania2.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/localizations": "^3.17.1",
+    "@clerk/nextjs": "^6.23.1",
+    "@googlemaps/js-api-loader": "^1.16.10",
+    "@paypal/react-paypal-js": "^8.8.3",
+    "@prisma/client": "^6.10.1",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@react-google-maps/api": "^2.20.7",
+    "@stripe/react-stripe-js": "^3.7.0",
+    "@stripe/stripe-js": "^7.4.0",
+    "antd": "^5.26.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.2.0",
+    "firebase": "^11.10.0",
+    "lucide-react": "^0.525.0",
+    "mercadopago": "^2.8.0",
+    "next": "14.2.30",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-google-places-autocomplete": "^4.1.0",
+    "react-icons": "^5.5.0",
+    "react-toastify": "^11.0.5",
+    "remixicon": "^4.6.0",
+    "resend": "^4.7.0",
+    "stripe": "^18.3.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "prisma": "^6.10.1",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5"
+  }
+}
